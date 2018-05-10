@@ -32,6 +32,7 @@
             this.explainLabel1 = new System.Windows.Forms.Label();
             this.explainLabel2 = new System.Windows.Forms.Label();
             this.largestWordButton = new System.Windows.Forms.Button();
+            this.luckyButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox
@@ -71,11 +72,21 @@
             this.largestWordButton.UseVisualStyleBackColor = true;
             this.largestWordButton.Click += new System.EventHandler(this.largestWordButton_Click);
             // 
+            // luckyButton
+            // 
+            this.luckyButton.Location = new System.Drawing.Point(130, 197);
+            this.luckyButton.Name = "luckyButton";
+            this.luckyButton.Size = new System.Drawing.Size(75, 43);
+            this.luckyButton.TabIndex = 4;
+            this.luckyButton.Text = "Feeling Lucky";
+            this.luckyButton.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(337, 381);
+            this.Controls.Add(this.luckyButton);
             this.Controls.Add(this.largestWordButton);
             this.Controls.Add(this.explainLabel2);
             this.Controls.Add(this.explainLabel1);
@@ -93,6 +104,7 @@
         private System.Windows.Forms.Label explainLabel1;
         private System.Windows.Forms.Label explainLabel2;
         private System.Windows.Forms.Button largestWordButton;
+        private System.Windows.Forms.Button luckyButton;
     }
 }
 

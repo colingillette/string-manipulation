@@ -12,6 +12,12 @@ namespace string_manipulation
 {
     public partial class Form1 : Form
     {
+        private void cleanForm()
+        {
+            textBox.Clear();
+            textBox.Focus();
+        }
+
         public Form1()
         {
             InitializeComponent();
@@ -21,10 +27,11 @@ namespace string_manipulation
         {
             string str;
 
-            StringAid stringAid = new StringAid();
-            str = stringAid.LargestWord();
+            StringAid stringAid = new StringAid(textBox.Text);
+            str = stringAid.LongestWord();
 
             MessageBox.Show(str);
+            cleanForm();
         }
     }
 }

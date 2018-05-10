@@ -26,7 +26,7 @@ namespace string_manipulation
             set { _str = value; }
         }
 
-        public string LargestWord()
+        public string LongestWord()
         {
             int index = 0;
             string holder, word, longest = "";
