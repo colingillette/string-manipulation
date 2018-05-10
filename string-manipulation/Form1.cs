@@ -16,5 +16,15 @@ namespace string_manipulation
         {
             InitializeComponent();
         }
+
+        private void largestWordButton_Click(object sender, EventArgs e)
+        {
+            string str;
+
+            StringAid stringAid = new StringAid();
+            str = stringAid.LargestWord();
+
+            MessageBox.Show(str);
+        }
     }
 }

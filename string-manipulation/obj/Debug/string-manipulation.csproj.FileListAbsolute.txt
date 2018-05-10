@@ -1,0 +1,10 @@
+C:\Users\cgillette\Desktop\string-manipulation\string-manipulation\bin\Debug\string-manipulation.exe.config
+C:\Users\cgillette\Desktop\string-manipulation\string-manipulation\bin\Debug\string-manipulation.exe
+C:\Users\cgillette\Desktop\string-manipulation\string-manipulation\bin\Debug\string-manipulation.pdb
+C:\Users\cgillette\Desktop\string-manipulation\string-manipulation\obj\Debug\string-manipulation.csprojResolveAssemblyReference.cache
+C:\Users\cgillette\Desktop\string-manipulation\string-manipulation\obj\Debug\string_manipulation.Form1.resources
+C:\Users\cgillette\Desktop\string-manipulation\string-manipulation\obj\Debug\string_manipulation.Properties.Resources.resources
+C:\Users\cgillette\Desktop\string-manipulation\string-manipulation\obj\Debug\string-manipulation.csproj.GenerateResource.cache
+C:\Users\cgillette\Desktop\string-manipulation\string-manipulation\obj\Debug\string-manipulation.csproj.CoreCompileInputs.cache
+C:\Users\cgillette\Desktop\string-manipulation\string-manipulation\obj\Debug\string-manipulation.exe
+C:\Users\cgillette\Desktop\string-manipulation\string-manipulation\obj\Debug\string-manipulation.pdb
