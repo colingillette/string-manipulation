@@ -53,5 +53,27 @@ namespace string_manipulation
 
             return longest;
         }
+
+        public bool feelingLucky()
+        {
+            string lucky = "lucky";
+            string test;
+
+            bool result = false;
+
+            int tailEnd = lucky.Length;
+
+            for (int i = 0; i < (Str.Length - 4); i++)
+            {
+                test = Str.Substring(i, tailEnd);
+
+                if (test.ToLower() == lucky)
+                {
+                    result = true;
+                }
+            }
+
+            return result;
+        }
     }
 }

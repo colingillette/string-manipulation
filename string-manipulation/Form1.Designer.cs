@@ -80,6 +80,7 @@
             this.luckyButton.TabIndex = 4;
             this.luckyButton.Text = "Feeling Lucky";
             this.luckyButton.UseVisualStyleBackColor = true;
+            this.luckyButton.Click += new System.EventHandler(this.luckyButton_Click);
             // 
             // Form1
             // 

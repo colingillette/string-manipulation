@@ -33,5 +33,23 @@ namespace string_manipulation
             MessageBox.Show(str);
             cleanForm();
         }
+
+        private void luckyButton_Click(object sender, EventArgs e)
+        {
+            string str;
+            bool isLucky;
+
+            StringAid stringAid = new StringAid(textBox.Text);
+            isLucky = stringAid.feelingLucky();
+
+            if (isLucky)
+            {
+                MessageBox.Show("You are feeling lucky.");
+            }
+            else
+            {
+                MessageBox.Show("You are not feeling lucky.");
+            }
+        }
     }
 }
