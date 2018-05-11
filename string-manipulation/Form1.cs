@@ -12,7 +12,7 @@ namespace string_manipulation
 {
     public partial class Form1 : Form
     {
-        private void cleanForm()
+        private void CleanForm()
         {
             textBox.Clear();
             textBox.Focus();
@@ -31,7 +31,7 @@ namespace string_manipulation
             str = stringAid.LongestWord();
 
             MessageBox.Show(str);
-            cleanForm();
+            CleanForm();
         }
 
         private void luckyButton_Click(object sender, EventArgs e)
@@ -40,7 +40,7 @@ namespace string_manipulation
             bool isLucky;
 
             StringAid stringAid = new StringAid(textBox.Text);
-            isLucky = stringAid.feelingLucky();
+            isLucky = stringAid.FeelingLucky();
 
             if (isLucky)
             {
@@ -50,6 +50,17 @@ namespace string_manipulation
             {
                 MessageBox.Show("You are not feeling lucky.");
             }
+            CleanForm();
+        }
+
+        private void uniqueButton_Click(object sender, EventArgs e)
+        {
+            string unique;
+
+            StringAid stringAid = new StringAid(textBox.Text);
+            unique = stringAid.UniqueCharacters();
+
+            MessageBox.Show(unique);
         }
     }
 }

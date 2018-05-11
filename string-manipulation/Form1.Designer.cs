@@ -33,6 +33,7 @@
             this.explainLabel2 = new System.Windows.Forms.Label();
             this.largestWordButton = new System.Windows.Forms.Button();
             this.luckyButton = new System.Windows.Forms.Button();
+            this.uniqueButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox
@@ -64,9 +65,9 @@
             // 
             // largestWordButton
             // 
-            this.largestWordButton.Location = new System.Drawing.Point(130, 148);
+            this.largestWordButton.Location = new System.Drawing.Point(114, 148);
             this.largestWordButton.Name = "largestWordButton";
-            this.largestWordButton.Size = new System.Drawing.Size(75, 43);
+            this.largestWordButton.Size = new System.Drawing.Size(111, 43);
             this.largestWordButton.TabIndex = 3;
             this.largestWordButton.Text = "Largest Word";
             this.largestWordButton.UseVisualStyleBackColor = true;
@@ -74,19 +75,30 @@
             // 
             // luckyButton
             // 
-            this.luckyButton.Location = new System.Drawing.Point(130, 197);
+            this.luckyButton.Location = new System.Drawing.Point(114, 197);
             this.luckyButton.Name = "luckyButton";
-            this.luckyButton.Size = new System.Drawing.Size(75, 43);
+            this.luckyButton.Size = new System.Drawing.Size(111, 43);
             this.luckyButton.TabIndex = 4;
             this.luckyButton.Text = "Feeling Lucky";
             this.luckyButton.UseVisualStyleBackColor = true;
             this.luckyButton.Click += new System.EventHandler(this.luckyButton_Click);
+            // 
+            // uniqueButton
+            // 
+            this.uniqueButton.Location = new System.Drawing.Point(114, 246);
+            this.uniqueButton.Name = "uniqueButton";
+            this.uniqueButton.Size = new System.Drawing.Size(111, 43);
+            this.uniqueButton.TabIndex = 5;
+            this.uniqueButton.Text = "Longest Unique String";
+            this.uniqueButton.UseVisualStyleBackColor = true;
+            this.uniqueButton.Click += new System.EventHandler(this.uniqueButton_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(337, 381);
+            this.Controls.Add(this.uniqueButton);
             this.Controls.Add(this.luckyButton);
             this.Controls.Add(this.largestWordButton);
             this.Controls.Add(this.explainLabel2);
@@ -106,6 +118,7 @@
         private System.Windows.Forms.Label explainLabel2;
         private System.Windows.Forms.Button largestWordButton;
         private System.Windows.Forms.Button luckyButton;
+        private System.Windows.Forms.Button uniqueButton;
     }
 }
 

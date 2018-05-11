@@ -54,7 +54,7 @@ namespace string_manipulation
             return longest;
         }
 
-        public bool feelingLucky()
+        public bool FeelingLucky()
         {
             string lucky = "lucky";
             string test;
@@ -74,6 +74,38 @@ namespace string_manipulation
             }
 
             return result;
+        }
+
+        public string UniqueCharacters()
+        {
+            string unique = " ";
+            char c;
+            bool test = false;
+
+            for (int i = 0; i < Str.Length; i++)
+            {
+                c = Str[i];
+                
+                for (int j = 0; j < unique.Length; j++)
+                {
+                    if (c != unique[j])
+                    {
+                        test = true;
+                    }
+                    else
+                    {
+                        test = false;
+                        break;
+                    }
+                }
+
+                if (test)
+                {
+                    unique += c;
+                }
+            }
+
+            return unique;
         }
     }
 }
