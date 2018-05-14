@@ -62,5 +62,10 @@ namespace string_manipulation
 
             MessageBox.Show(unique);
         }
+
+        private void chatbotButton1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

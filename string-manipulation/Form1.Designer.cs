@@ -34,6 +34,7 @@
             this.largestWordButton = new System.Windows.Forms.Button();
             this.luckyButton = new System.Windows.Forms.Button();
             this.uniqueButton = new System.Windows.Forms.Button();
+            this.chatbotButton1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox
@@ -93,11 +94,22 @@
             this.uniqueButton.UseVisualStyleBackColor = true;
             this.uniqueButton.Click += new System.EventHandler(this.uniqueButton_Click);
             // 
+            // chatbotButton1
+            // 
+            this.chatbotButton1.Location = new System.Drawing.Point(114, 295);
+            this.chatbotButton1.Name = "chatbotButton1";
+            this.chatbotButton1.Size = new System.Drawing.Size(111, 43);
+            this.chatbotButton1.TabIndex = 6;
+            this.chatbotButton1.Text = "ChatBot Check Context: Parking";
+            this.chatbotButton1.UseVisualStyleBackColor = true;
+            this.chatbotButton1.Click += new System.EventHandler(this.chatbotButton1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(337, 381);
+            this.ClientSize = new System.Drawing.Size(340, 432);
+            this.Controls.Add(this.chatbotButton1);
             this.Controls.Add(this.uniqueButton);
             this.Controls.Add(this.luckyButton);
             this.Controls.Add(this.largestWordButton);
@@ -119,6 +131,7 @@
         private System.Windows.Forms.Button largestWordButton;
         private System.Windows.Forms.Button luckyButton;
         private System.Windows.Forms.Button uniqueButton;
+        private System.Windows.Forms.Button chatbotButton1;
     }
 }
 
